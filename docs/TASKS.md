@@ -163,8 +163,16 @@ Your tests should all still pass at this point.
 
 1. If a book is an object, what is its encapsulated data?
 
+The key-value pairs or object properties - Title, Author, Qty
+
 2. Why do we create a new Book for every single test in `Book.test.js`?
 
+because the previous test would have updated the data and it would throw the tests out as they need to be actioned against the original data
+
 3. What data, of a book's encapsulated data, is changeable?
+ the state of each property
+
 
 4. Why is representing a book as an object a better idea than representing it as a string?
+
+You can CRUD each key-value pair separately rather than trying to split the striung up to use the bit you want.
