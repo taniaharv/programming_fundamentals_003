@@ -29,7 +29,11 @@ const catalogue = [
 
 Knowing what you know now about objects, do you think that the way we have chosen to represent a book is the best way?
 
+No
+
 How could we better represent a book?
+
+by putting data in an object/database
 
 Discuss with your pair.
 
